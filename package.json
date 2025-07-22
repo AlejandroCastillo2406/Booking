@@ -1,0 +1,27 @@
+{
+  "name": "booking-servicios",
+  "version": "1.0.0",
+  "description": "Backend Express y frontend React para booking de servicios",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build-client": "cd client && npm install && npm run build",
+    "postinstall": "npm run build-client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandroCastillo2406/Booking.git"
+  },
+  "keywords": [],
+  "author": "Alejandro Castillo24",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlejandroCastillo2406/Booking/issues"
+  },
+  "homepage": "https://github.com/AlejandroCastillo2406/Booking#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+
